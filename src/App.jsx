@@ -5,13 +5,13 @@ import Home from "./pages/Home"
 const App = () => {
   return (
     <div>
-      <Nav></Nav>
-      <Main>
+      <header></header>
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </Main>
-      <Footer></Footer>
+      </main>
+      <footer></footer>
     </div>
   )
 }
