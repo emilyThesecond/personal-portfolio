@@ -5,9 +5,9 @@ const Nav = () => {
   return (
     <div>
         <NavLink to='/'>Home</NavLink>
-        <NavLink>Projects</NavLink>
-        <NavLink>About</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink to='/projects'>Projects</NavLink>
+        <NavLink to='/about'>About</NavLink>
+        <NavLink to='/contact'>Contact</NavLink>
     </div>
   )
 }
