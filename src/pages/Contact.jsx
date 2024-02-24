@@ -2,8 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contact'>
       <header>Say Hey!</header>
+
     </div>
   )
 }
