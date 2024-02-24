@@ -5,25 +5,39 @@
 
   color-scheme: light dark;
   color: rgb(54, 81, 62);
-  background-color: rgb(177, 182, 141);
+  /* background-color: rgb(177, 182, 141); */
+  /* background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204)); */
+  /* background: radial-gradient(circle, rgb(181, 64, 165), rgb(239, 175, 223)); */
+  background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 100%; */
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
   font-size: 6vmin;
-   /* background-image: url("https://media.istockphoto.com/id/1382812225/vector/abstract-pastel-pink-purple-holographic-blurred-grainy-gradient-background.jpg?s=612x612&w=0&k=20&c=DhpyMvkHsEFIMBfLKYHFGizn6UgZEpaAGl0jOvP6_p0="); */
-  /* background-image: url("https://t3.ftcdn.net/jpg/04/58/66/20/240_F_458662061_FkN1rBzzPwXmQAb709ExKDEWD9Ws1TpS.jpg"); */
-
-
+}
+.home {
+  font-size: 8vmin;
 }
 
 .nav a {
   color: rgb(54, 81, 62);
   font-size: 3vmin;
 }
+
+
+
+
+
+/* PROJECT */
 .projects-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 .project {

@@ -8,7 +8,7 @@ import Nav from "./components/Nav"
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <header>
         <Nav/>
       </header>
