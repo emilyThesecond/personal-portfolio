@@ -7,6 +7,7 @@
   color: rgb(54, 81, 62);
   /* background-color: rgb(177, 182, 141); */
   /* background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204)); */
+  /* background: radial-gradient(circle, rgb(116, 151, 204), rgb(177, 182, 141)); */
   /* background: radial-gradient(circle, rgb(181, 64, 165), rgb(239, 175, 223)); */
   background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
   background-size: cover;
@@ -18,10 +19,13 @@
   font-weight: 800;
   font-style: normal;
   font-size: 6vmin;
+
 }
 .home {
   font-size: 8vmin;
   height: 100vmin;
+  
+
 }
 .home, .about, .contact {
   height: 100vmin;
@@ -30,7 +34,14 @@
 .nav a {
   color: rgb(54, 81, 62);
   font-size: 3vmin;
+  text-decoration: underline;
+  transition: text-decoration 0.8s ease-out;
 }
+.nav a:hover {
+  text-decoration:none; 
+  font-style: italic;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -39,6 +50,16 @@
 .contact {
   padding-top: 10vmin;
   text-align: center;
+}
+.me {
+  width: 40vmin;
+  height: 60vmin; 
+  border-top-left-radius: 50%; 
+  border-top-right-radius: 50%; 
+  border: 5px solid rgb(0, 0, 0);
+}
+.pic-me {
+  display: flex;
 }
 
 
