@@ -13,7 +13,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 100vmin; */
+  /* height: 100%; */
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -24,12 +24,14 @@
 .home {
   font-size: 8vmin;
   height: 100vmin;
-  
-
 }
-.home, .about, .contact {
+.contact {
   height: 100vmin;
 }
+
+/* .home, .about, .contact .projects-container{
+  height: 100vmin;
+} */
 
 .nav a {
   color: rgb(54, 81, 62);
