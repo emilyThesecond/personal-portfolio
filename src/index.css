@@ -63,6 +63,9 @@
 .pic-me {
   display: flex;
 }
+.about h6 {
+  font-size: 2vmin;
+}
 
 
 
