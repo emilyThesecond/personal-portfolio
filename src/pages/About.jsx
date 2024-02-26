@@ -1,7 +1,8 @@
-import React from 'react'
+
 
 const About = () => {
   return (
+    
     <div className='about'>
       <h1>About</h1>
       <div className='pic-me'>
@@ -12,6 +13,7 @@ const About = () => {
       <h6>other things about me: </h6>
       <h6>I am a big hobby person, name any art or craft, I love. My second passion is pottery, (Hence my "Glaze Cookbook" app) although an expensive craft, like in coding, very fullfilling building something from scratch and calling it yours!</h6>
         </div>
+        <div className="star"></div>
       <img className='me' src="https://i.imgur.com/DMWQYjU.png" alt="Picture of Emily Segundo" />
       </div>
     </div>

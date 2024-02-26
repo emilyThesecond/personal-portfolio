@@ -5,10 +5,7 @@
 
   color-scheme: light dark;
   color: rgb(54, 81, 62);
-  /* background-color: rgb(177, 182, 141); */
   /* background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204)); */
-  /* background: radial-gradient(circle, rgb(116, 151, 204), rgb(177, 182, 141)); */
-  /* background: radial-gradient(circle, rgb(181, 64, 165), rgb(239, 175, 223)); */
   background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,6 +18,7 @@
   font-size: 6vmin;
 
 }
+
 .home {
   font-size: 8vmin;
   height: 100vmin;
@@ -28,6 +26,7 @@
 .contact {
   height: 100vmin;
 }
+
 
 /* .home, .about, .contact .projects-container{
   height: 100vmin;
