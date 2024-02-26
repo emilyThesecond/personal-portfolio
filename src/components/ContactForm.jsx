@@ -1,15 +1,21 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+ const serviceId = 'service_tlwm6k8'
+const templateId = 'template_dgjmfu7'
+const userId = 'OpgOmsq6w1i0ZoMlZ'
 
-export const ContactUs = () => {
+export const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm(
+        serviceId, 
+        templateId, 
+        form.current, {
+        publicKey: userId,
       })
       .then(
         () => {
@@ -33,3 +39,6 @@ export const ContactUs = () => {
     </form>
   );
 };
+ 
+
+export default ContactForm

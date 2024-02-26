@@ -2,6 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
+    <div className='project-page'>
     <div className="projects-container">
       <h2>Projects</h2>
       <div className="project">
@@ -28,6 +29,7 @@ const Projects = () => {
         <h4>Technologies Used: Python, Django, PostgreSQL</h4>
         <img src="https://i.imgur.com/86E64Nb.png" alt="Project 3" />
       </div>
+    </div>
     </div>
   );
 };

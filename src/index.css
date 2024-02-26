@@ -6,11 +6,11 @@
   color-scheme: light dark;
   color: rgb(54, 81, 62);
   /* background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204)); */
+  min-height: 100vh; /* Ensure the container extends to at least the full height of the viewport */
   background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: center;
-  /* height: 100%; */
   font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -21,17 +21,13 @@
 
 .home {
   font-size: 8vmin;
-  height: 100vmin;
-}
-.contact {
-  height: 100vmin;
+  /* height: 100vmin; */
 }
 
 
-/* .home, .about, .contact .projects-container{
+/* .contact {
   height: 100vmin;
 } */
-
 .nav a {
   color: rgb(54, 81, 62);
   font-size: 3vmin;
