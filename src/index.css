@@ -21,8 +21,35 @@
   
 
 }
+form {
+  border: 2px solid rgb(54, 81, 62);
+  background-color: rgba(242, 250, 245, 0.531);
+  color: rgb(232, 157, 157);
 
 
+}
+input, textarea {
+  background-color: rgb(234, 180, 180);
+ 
+}
+
+input[type="submit"] {
+  background-color: #d76055;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2vmin;
+}
+label {
+  display: block;
+  /* margin-bottom: 5px; */
+}
 .home {
   font-size: 8vmin;
   /* height: 100vmin; */
