@@ -8,6 +8,8 @@
   /* background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204)); */
   min-height: 100vh; /* Ensure the container extends to at least the full height of the viewport */
   background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center;
@@ -16,14 +18,15 @@
   font-weight: 800;
   font-style: normal;
   font-size: 6vmin;
+  
 
 }
+
 
 .home {
   font-size: 8vmin;
   /* height: 100vmin; */
 }
-
 
 /* .contact {
   height: 100vmin;
