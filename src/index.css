@@ -10,7 +10,7 @@
   background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
   /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
   /* background: radial-gradient(circle, rgba(148,187,233,1), rgb(153, 10, 7)); */
-  background: linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(237, 84, 70, 1) 120%);
+  /* background: linear-gradient(0deg, rgba(238, 238, 238, 1) 0%, rgba(237, 84, 70, 1) 120%); */
 
 
   background-size: cover;
@@ -237,4 +237,6 @@ label {
   height: 220px;
   opacity: 1;
 }
+
+
 
