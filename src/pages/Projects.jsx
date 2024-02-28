@@ -30,6 +30,9 @@ const Projects = () => {
         <img src="https://i.imgur.com/86E64Nb.png" alt="Project 3" />
       </div>
     </div>
+    <button class="button">
+        Contact me →
+        </button>
     </div>
   );
 };
