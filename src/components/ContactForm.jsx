@@ -12,6 +12,7 @@ export const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+
     emailjs
       .sendForm(
         serviceId,
