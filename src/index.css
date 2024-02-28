@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgb(54, 81, 62);
-  /* background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204)); */
+  background: radial-gradient(circle, rgb(177, 182, 141), rgb(116, 151, 204));
   min-height: 100vh; /* Ensure the container extends to at least the full height of the viewport */
   background: radial-gradient(circle, rgb(237, 84, 70), rgb(255, 255, 255));
   /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
