@@ -133,3 +133,19 @@ label {
   max-width: 100%;
   border-radius: 5px;
 }
+
+.button {
+  --font-color: #c15c5c;
+  /* --bg-color: #f3e5e5; */
+  --main-color: #3c5037;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: #f3e5e5;
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+
+}

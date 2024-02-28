@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom"
 const About = () => {
   return (
     
@@ -14,6 +14,11 @@ const About = () => {
         </div>
       <img className='me' src="https://i.imgur.com/DMWQYjU.png" alt="Picture of Emily Segundo" />
       </div>
+      <Link to='/projects'>
+      <button class="button">
+        View My Projects →
+        </button>
+      </Link>
     </div>
   )
 }
