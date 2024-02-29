@@ -362,7 +362,7 @@ form button:hover, form textarea:hover {
 
 .social-text {
   position: absolute;
-  top: 100%;
+  top: -100%;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0);
