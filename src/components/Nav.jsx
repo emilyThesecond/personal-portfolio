@@ -15,8 +15,9 @@ const Nav = () => {
     </button>
     {/* Navigation links */}
     <div className="nav-links">
-        <NavLink to='/projects' onClick={toggleMenu}>Projects</NavLink>
         <NavLink to='/' onClick={toggleMenu}>Home</NavLink>
+        <NavLink to='/projects' onClick={toggleMenu}>Projects</NavLink>
+        <NavLink to='/about' onClick={toggleMenu}>About</NavLink>
         <NavLink to='/contact' onClick={toggleMenu}>Contact</NavLink>
     </div>
 </div>

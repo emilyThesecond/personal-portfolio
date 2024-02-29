@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -6,6 +7,13 @@ const Home = () => {
       <h1>Emily Segundo</h1>
       <h3>software engineer
       </h3>
+      <div>
+        <Link>Projects</Link>
+        <Link>About</Link>
+        <Link>Contact</Link>
+        </div>
+
+            
     </div>
   )
 }

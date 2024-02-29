@@ -64,6 +64,10 @@
 .about h6 {
   font-size: 2vmin;
 }
+.back-button:hover {
+  background-color: rgb(252, 242, 242);
+  
+}
 
 
 
@@ -155,11 +159,9 @@ label {
   border: 2px solid white;
   box-shadow: 4px 4px rgb(237, 138, 138);
   color: rgb(32, 48, 32);
-  font-size: 1vmin;
-  font-family: "Syne", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+  font-size: 2vmin;
+  font-weight: bold;
+
 }
 .nav {
   position: fixed;

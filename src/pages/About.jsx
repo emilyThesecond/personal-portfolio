@@ -15,7 +15,10 @@ const About = () => {
       <img className='me' src="https://i.imgur.com/DMWQYjU.png" alt="Picture of Emily Segundo" />
       </div>
       <Link to='/projects'>
-    <button className='next-button'>P R O J E C T S</button>
+    <button className='back-button'>P R O J E C T S</button>
+    </Link>
+      <Link to='/contact'>
+    <button className='next-button'>C O N T A C T</button>
     </Link>
     </div>
   )
