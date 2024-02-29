@@ -5,9 +5,10 @@ const Home = () => {
   return (
     <div className='home'>
         <div className='name'>
-        <h1>Emily Segundo</h1>
-        <h3>software engineer
-        </h3>
+        <p>Emily Segundo</p>
+        {/* <p>EMILY SEGUNDO</p> */}
+        <h3>SOFTWARE ENGINEER</h3>
+        
         </div>
      <Link to='/projects'>
     <button className='next-button'>P R O J E C T S</button>
