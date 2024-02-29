@@ -74,12 +74,17 @@
 
 /* PROJECT */
 .projects-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-
 }
-
+.projects-container h1 {
+  font-size: 8vmin;
+}
+.project-header {
+  display: flex;
+  justify-content: center;
+}
 .project {
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -89,7 +94,7 @@
 }
 
 .project h1 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 5px;
   color: #333;
 }
@@ -101,7 +106,7 @@
 }
 
 .project h4 {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: #777;
 }
@@ -109,6 +114,19 @@
 .project img {
   max-width: 100%;
   border-radius: 5px;
+}
+.project a{
+  padding-right: 10px;
+}
+.project button{
+  padding: 5px 26px;
+  font-size: 2vmin;
+  background-color: #d09a96;
+  border-radius: 1px #d09a96;
+  border: none;
+}
+.project button:hover {
+  background-color: #d76055;
 }
 
 form {
