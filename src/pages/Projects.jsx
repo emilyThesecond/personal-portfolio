@@ -34,8 +34,8 @@ const Projects = () => {
     <Link to='/'>
     <button className='back-button'>H O M E</button>
     </Link>
-    <Link to='/contact'>
-    <button className='next-button'>C O N T A C T</button>
+    <Link to='/about'>
+    <button className='next-button'>ABOUT</button>
     </Link>
     </div>
   );

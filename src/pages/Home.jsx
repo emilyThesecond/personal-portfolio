@@ -4,16 +4,14 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='home'>
-      <h1>Emily Segundo</h1>
-      <h3>software engineer
-      </h3>
-      <div>
-        <Link>Projects</Link>
-        <Link>About</Link>
-        <Link>Contact</Link>
+        <div className='name'>
+        <h1>Emily Segundo</h1>
+        <h3>software engineer
+        </h3>
         </div>
-
-            
+     <Link to='/projects'>
+    <button className='next-button'>P R O J E C T S</button>
+    </Link>
     </div>
   )
 }
