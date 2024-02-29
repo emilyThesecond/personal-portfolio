@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <header>Say Hey!</header>
-      <h5>Want to work together on a project?</h5>
+      <h6>Interested in collaborating on a project? Looking to expand your network? Or perhaps you're simply exploring? Feel free to explore my social links or check out my resume for more information! Alternatively, you can use the contact form below to get in touch.</h6>
       <div className='socials'>
         <ContactForm />
         <h4></h4>
@@ -15,7 +15,7 @@ const Contact = () => {
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Gitub logo" />
             <span className="social-text">GitHub</span>
           </a>
-          <a href="www.linkedin.com/in/emily-segundo" className="social-link">
+          <a href="https://www.linkedin.com/in/emily-segundo/" className="social-link">
             <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn logo" />
             <span className="social-text">LinkedIn</span>
           </a>
@@ -28,7 +28,7 @@ const Contact = () => {
       <Link to='/about'>
         <button className='back-button'>A B O U T</button>
       </Link>
-      <Link to='/projects'>
+      <Link to='/'>
         <button className='next-button'>H O M E</button>
       </Link>
     </div>
