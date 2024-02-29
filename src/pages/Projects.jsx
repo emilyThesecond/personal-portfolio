@@ -5,12 +5,13 @@ const Projects = () => {
   return (
     <div className='project-page'>
     <div className="projects-container">
-      <h2>Projects</h2>
+      <p>Projects</p>
       <div className="project">
         <h1>The Strokes Fans</h1>
+        <button></button>
         <a href="https://the-strokes-fan-page.vercel.app/">live site</a>
         <a href="https://github.com/emilyThesecond/the-strokes-client">Github</a>
-        <h3>Details</h3>
+        <h3>Details: </h3>
         <h4>Technologies Used: MongoDB, Express, React, Node.js</h4>
         <img src="https://i.imgur.com/ks0HzMr.png" alt="Project 1" />
       </div>

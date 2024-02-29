@@ -168,7 +168,7 @@ label {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  background-color: rgb(189, 105, 105); /* semi-transparent background rgba(189, 105, 105, 0.5)  */
   z-index: 1000; /* ensure it's on top of other content */
   display: flex;
   flex-direction: column;
@@ -208,26 +208,19 @@ label {
   font-size: 1rem;
 }
 
-.home a{
-  display: flex;
-  color:  rgb(52, 80, 52)
-}
+
 .home {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 5vmin;
 }
 
 .name {
   flex: 1;
 }
 
-.page-nav a{
-  display: flex;
-  gap: 20px;
-  font-size: 12vmin;
-  height: 20vmin;
-}
-.page-nav a:hover {
-  font-style: italic;
+.projects-container a{
+  color:#d09a96;
+  font-size: 3vmin;
 }
