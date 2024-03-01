@@ -7,7 +7,7 @@ const Home = () => {
       <div className='name'>
         <p>Emily Segundo</p>
         <h3>SOFTWARE ENGINEER</h3>
-        <h4>Technology:</h4>
+        {/* <h4>Technology:</h4> */}
 
       </div>
       <div className='buttons'>
