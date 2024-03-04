@@ -18,7 +18,7 @@ const Projects = () => {
       </div>
       <div className="project">
         <h1>Glaze Cookbook</h1>
-        <a href="https://glaze-cookbook2-839a7d9cf08f.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button>Live site</button></a>
+        <a href="https://glaze-cookbook-587f2459d5c3.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button>Live site</button></a>
         <a href="https://github.com/emilyThesecond/glaze-cookbook" target="_blank" rel="noopener noreferrer"><button>Gitub</button></a>
         <h3>Details: A full-stack community application for pottery enthusiasts to share real-life experiences, insights on brands, colors, glaze combinations, and techniques, fostering collaboration and support among members.</h3>
         <h4>Technologies Used: MongoDB, Express, Node.js, JavaScript</h4>
