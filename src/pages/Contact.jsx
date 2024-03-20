@@ -19,7 +19,7 @@ const Contact = () => {
             <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn logo" />
             <span className="social-text">LinkedIn</span>
           </a>
-          <a href="https://docs.google.com/document/d/1F6c09QYGkfmz82X3-FDUtKNxhLrMesCqxaSZhbP8gNo/edit?usp=sharing" className="social-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/document/d/19uHPdQYXastPyo64PPVbi7jxlWMRewXHGSiyI4Gsi7c/edit?usp=sharing">
             <img src="https://cdn-icons-png.flaticon.com/128/14501/14501851.png" alt="Google Docs" />
             <span className="social-text">Resume</span>
           </a>
