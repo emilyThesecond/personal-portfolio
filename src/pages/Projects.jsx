@@ -7,6 +7,17 @@ const Projects = () => {
     <div className="projects-container">
       <h1 className='project-header'>P R O J E C T S</h1>
       <div className="project">
+        <h1>75 Hard</h1>
+        <h4>Coming soon</h4>
+        {/* <a href="https://the-strokes-fan-page.vercel.app/" target="_blank" rel="noopener noreferrer"> */}
+        {/* <button>live site</button> */}
+        {/* </a> */}
+        <a href="https://github.com/emilyThesecond/seventy-five-hard" target="_blank" rel="noopener noreferrer"><button>Gitub</button></a>
+        <h3>Experience the ultimate fitness challenge with 75 Hard, the app that keeps you accountable on your wellness journey. Whether you're following the strict 5-rule program or customizing your goals with 75 Soft, journal daily to track your progress and stay committed to your goals. With features like customizable meal plans and progress photo uploads, achieving your fitness ambitions has never been easier. </h3>
+        <h4>Technologies Used: Python | Django | SQL </h4>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fconstruction-butterscotch-vol-2%2F512%2FUnder_Construction_2-1024.png&f=1&nofb=1&ipt=76157be84897415ac5dfc92ef122f80d69f4c3c774bdf79f1dfb68ef42ea3793&ipo=images" alt="Under construction image" width = '200'/>
+      </div>
+      <div className="project">
         <h1>The Strokes Fans</h1>
         <a href="https://the-strokes-fan-page.vercel.app/" target="_blank" rel="noopener noreferrer">
         <button>live site</button>
